@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -21,7 +18,7 @@
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/22-Brittanie-Ort-1.jpg"/>
 			<div>
 				<head>Replace with your title.</head>
-				<p>Replace with your text.</p></div>
+				<p>Replace with your text.BRitannie (called in tyme paſt Aymoyica) bordereth eaſtward vpon the country of Maine and aparre of Anics, towards the north it harth the narrow ſea &amp; aparre of the country of Conſtantin, towards the weſt the maine Ocean, &amp; towards the ſouth the country of Peiten.  [indent] It is reconed in two partes, to wit the higher &amp; the lower Britany.  [indent] There are in it nyne Biſhoprykes which are deuided into three diſtinche quarters.  [indent] Three of theſe which are, Cornnoille, S. Paul &amp; Treguiers, do ſpeake the Britiſh tongue, &amp; the inhabitants are called Cornabians, Other three, to wit,thoſe of Dol, Renes &amp; S. Male i do ſppeak the French tongue.[indent] The third beeing thoſe of Nantes, vonnes and S.Brien, do ſpeake the French and Britiſh. [indent] The principall townes in Britannie are Namtes and Renes, but in Reues reſydeth the courre of Parlament for the whole prouince. [indent] the chief hauen of all Britany is that of Breſt. [indent] It is not to bee omitted that the hauen of S. Male is garded with siaſtiues, which beeing therero trayned do there kepe diligent night warch. [indent] It is generally a pleaſant &amp; fertile country, the earable land beeing as good as can be deſyred, hauing alfoplenty of wood &amp; paſture, &amp; exceeding great ſtore of medow ground. [indent] There are in it mynes of Iran &amp; lead, &amp; in ſome-places ſilucr. [indent] ſyne ſalt is there boyled through the heat of the Sun. [indent] And the country through the many comodiries thereof, &amp; the ſea rrafike, is very welthy. </p></div>
 		</body>
 	</text>
 </TEI>
