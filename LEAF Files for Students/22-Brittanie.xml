@@ -311,7 +311,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/EdenHudson/LEAF/main/LEAF%20Files%20for%20Students/22-Brittanie.xml?rs_annotation_20241105154620117#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/rs[2]"
+			"rdf:value": "TEI/text/body/div/p/rs[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -390,7 +390,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/EdenHudson/LEAF/main/LEAF%20Files%20for%20Students/22-Brittanie.xml?rs_annotation_20241105154646333#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/rs[3]"
+			"rdf:value": "TEI/text/body/div/p/rs[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -486,13 +486,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/EdenHudson/LEAF/main/LEAF%20Files%20for%20Students/22-Brittanie.xml?rs_annotation_20241105155014641",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T20:50:14.641Z",
+	"dcterms:modified": "2024-11-05T20:50:14.641Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/EdenHudson",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eden Hudson"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/EdenHudson/LEAF/main/LEAF%20Files%20for%20Students/22-Brittanie.xml?rs_annotation_20241105155014641#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/EdenHudson/LEAF/main/LEAF%20Files%20for%20Students/22-Brittanie.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/EdenHudson/LEAF/main/LEAF%20Files%20for%20Students/22-Brittanie.xml?rs_annotation_20241105155014641#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/rs[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q150",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/22-Brittanie-Ort-1.jpg"/>
 			<div>
 				<head>BRITANNIE</head>
-				<p>BRitannie (called in tyme paſt Aymoyica) bordereth eaſtward vpon the country of Maine and aparre of Anics, towards the north it harth the narrow ſea &amp; aparre of the country of Conſtantin, towards the weſt the maine Ocean, &amp; towards the ſouth the <placeName key="A Country Place" ref="http://vocab.getty.edu/tgn/2063953">country of Peiten</placeName>.  It is reconed in two partes, to wit the higher &amp; the lower Britany.  There are in it nyne Biſhoprykes which are deuided into three diſtinche quarters.  Three of theſe which are, <persName key="Pierre Corneille" ref="http://dbpedia.org/resource/Pierre_Corneille">Cornnoille</persName>, <persName key="Saint-Paul" ref="http://www.wikidata.org/entity/Q316887">S. Paul</persName> &amp; <persName key="Tréguier" ref="http://dbpedia.org/resource/Tréguier">Treguiers</persName>, do ſpeake the <rs key="British English" ref="http://www.wikidata.org/entity/Q7979">Britiſh</rs> tongue, &amp; the inhabitants are called Cornabians, Other three, to wit,thoſe of Dol, Renes &amp; S. Male i do ſppeak the French tongue.The third beeing thoſe of Nantes, vonnes and S.Brien, do ſpeake the <rs key="French" ref="http://www.wikidata.org/entity/Q150">French</rs> and <rs key="British English" ref="http://www.wikidata.org/entity/Q7979">Britiſh</rs>. The principall townes in <placeName key="Brittany" ref="http://www.wikidata.org/entity/Q327">Britannie</placeName> are Namtes and Renes, but in Reues reſydeth the courre of Parlament for the whole prouince. the chief hauen of all Britany is that of Breſt. It is not to bee omitted that the hauen of S. Male is garded with siaſtiues, which beeing therero trayned do there kepe diligent night warch. It is generally a pleaſant &amp; fertile country, the earable land beeing as good as can be deſyred, hauing alfoplenty of wood &amp; paſture, &amp; exceeding great ſtore of medow ground. There are in it mynes of <placeName key="Iran" ref="http://www.wikidata.org/entity/Q794">Iran</placeName> &amp; <placeName key="Lead" ref="http://www.wikidata.org/entity/Q19820624">lead,</placeName> &amp; in ſome-places ſilucr. ſyne ſalt is there boyled through the heat of the Sun. And the country through the many comodiries thereof, &amp; the ſea rrafike, is very welthy. </p></div>
+				<p>BRitannie (called in tyme paſt Aymoyica) bordereth eaſtward vpon the country of Maine and aparre of Anics, towards the north it harth the narrow ſea &amp; aparre of the country of Conſtantin, towards the weſt the maine Ocean, &amp; towards the ſouth the <placeName key="A Country Place" ref="http://vocab.getty.edu/tgn/2063953">country of Peiten</placeName>.  It is reconed in two partes, to wit the higher &amp; the lower Britany.  There are in it nyne Biſhoprykes which are deuided into three diſtinche quarters.  Three of theſe which are, <persName key="Pierre Corneille" ref="http://dbpedia.org/resource/Pierre_Corneille">Cornnoille</persName>, <persName key="Saint-Paul" ref="http://www.wikidata.org/entity/Q316887">S. Paul</persName> &amp; <persName key="Tréguier" ref="http://dbpedia.org/resource/Tréguier">Treguiers</persName>, do ſpeake the <rs key="British English" ref="http://www.wikidata.org/entity/Q7979">Britiſh</rs> tongue, &amp; the inhabitants are called Cornabians, Other three, to wit,thoſe of Dol, <persName key="René Descartes" ref="http://www.wikidata.org/entity/Q9191">Renes</persName> &amp; S. Male i do ſppeak the <rs key="French" ref="http://www.wikidata.org/entity/Q150">French</rs> tongue.The third beeing thoſe of Nantes, vonnes and S.Brien, do ſpeake the <rs key="French" ref="http://www.wikidata.org/entity/Q150">French</rs> and <rs key="British English" ref="http://www.wikidata.org/entity/Q7979">Britiſh</rs>. The principall townes in <placeName key="Brittany" ref="http://www.wikidata.org/entity/Q327">Britannie</placeName> are Namtes and Renes, but in Reues reſydeth the courre of Parlament for the whole prouince. the chief hauen of all Britany is that of Breſt. It is not to bee omitted that the hauen of S. Male is garded with siaſtiues, which beeing therero trayned do there kepe diligent night warch. It is generally a pleaſant &amp; fertile country, the earable land beeing as good as can be deſyred, hauing alfoplenty of wood &amp; paſture, &amp; exceeding great ſtore of medow ground. There are in it mynes of <placeName key="Iran" ref="http://www.wikidata.org/entity/Q794">Iran</placeName> &amp; <placeName key="Lead" ref="http://www.wikidata.org/entity/Q19820624">lead,</placeName> &amp; in ſome-places ſilucr. ſyne ſalt is there boyled through the heat of the Sun. And the country through the many comodiries thereof, &amp; the ſea rrafike, is very welthy. </p></div>
 		</body>
 	</text>
 </TEI>
